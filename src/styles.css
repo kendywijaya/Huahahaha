@@ -158,3 +158,15 @@ html {
   transform: translate(-50%);
   width: 100%;
 }
+
+.todo-placeholder-text {
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
+
+.add-button-placeholder-text {
+  font-family: "bungee", sans-serif;
+  font-size: 24px;
+}
