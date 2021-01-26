@@ -32,7 +32,7 @@ const TodoList = () => {
 
   const showAddToggle = () => setShowAdd(!showAdd);
 
-  const clearTodos = () => setTodos([]);
+  const clearTodos = () => !showAdd && setTodos([]);
 
   return (
     <Paper>
