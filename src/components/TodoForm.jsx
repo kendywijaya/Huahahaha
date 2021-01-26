@@ -37,16 +37,13 @@ const TodoForm = ({ addTodo, showAdd }) => {
       </section>
     );
   } else {
-    return (
-      <section className="add">
-        <form className="add-form" onSubmit={handleFormSubmit}></form>
-      </section>
-    );
+    return null;
   }
 };
 
 TodoForm.propTypes = {
-  addTodo: PropTypes.func.isRequired
+  addTodo: PropTypes.func.isRequired,
+  showAdd: PropTypes.bool.isRequired
 };
 
 export default TodoForm;
