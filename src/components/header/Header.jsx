@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import Button from "../button/Button";
 import styles from "./header.module.css";
 
+// import * as styles from "./header.styles";
+
 const Header = ({ showAddToggle, showAdd, clearTodos }) => {
   return (
     <section className={styles.header}>
